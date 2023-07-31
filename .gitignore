@@ -1,0 +1,18 @@
+# Ignore node_modules directory (dependencies installed via npm/yarn)
+node_modules/
+
+# Ignore build output (e.g., production or development builds)
+build/
+dist/
+
+# Ignore development server generated files
+.DS_Store
+npm-debug.log
+yarn-error.log
+
+# Ignore environment-specific files (e.g., .env files with sensitive data)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
